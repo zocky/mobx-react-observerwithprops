@@ -12,7 +12,7 @@ class Test extends React.Component {
   render() {
     console.log("render"); // will not happen if value changes while showValue is false
     if (this.showValue) return <div>{this.value}</div>;
-    else return <div>"Nothing shown"</div>;
+    else return <div>Nothing shown</div>;
   }
 };
 ````
