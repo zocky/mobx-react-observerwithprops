@@ -2,6 +2,8 @@
 
 In `mobx-react`, any change to any prop of a react component will force re-rendering. This is undesirable in many circumstances. A solution to this within `mobx-react` is being worked on, but at the moment, the desired behaviour can be achieved with this decorator, which will copy the values from the defined props to observable members on the class. 
 
+The values of the props will be assigned to the observables before the constructor is executed, so any reactions or whens in the constructor will work as expected.
+
 ## Synopsis
 ````jsx
 @observerWithProps({
