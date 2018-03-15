@@ -1,0 +1,25 @@
+{
+  "name": "mobx-react-observerwithprops",
+  "version": "1.0.0",
+  "description": "A mob-react decorator to connect selected props with observable members",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zocky/mobx-react-observerwithprops.git"
+  },
+  "keywords": [
+    "mobx",
+    "react",
+    "observer",
+    "observable-props"
+  ],
+  "author": "Zoran Obradović",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zocky/mobx-react-observerwithprops/issues"
+  },
+  "homepage": "https://github.com/zocky/mobx-react-observerwithprops#readme"
+}
