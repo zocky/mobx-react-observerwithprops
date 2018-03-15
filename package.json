@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/zocky/mobx-react-observerwithprops/issues"
   },
-  "homepage": "https://github.com/zocky/mobx-react-observerwithprops#readme"
+  "homepage": "https://github.com/zocky/mobx-react-observerwithprops#readme",
+  "peerDependencies": {
+    "mobx": "^4.0.2",
+    "mobx-react": "^5.0.0"
+  }
 }
